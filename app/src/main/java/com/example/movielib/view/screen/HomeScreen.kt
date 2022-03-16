@@ -1,4 +1,4 @@
-package com.example.movielib.ui.screen
+package com.example.movielib.view.screen
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
@@ -9,7 +9,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.R
 import androidx.compose.ui.unit.dp
 
 @Composable

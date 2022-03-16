@@ -59,3 +59,7 @@ class MovieService : IMovie {
         return true;
     }
 }
+// Factoring method
+fun makeMovieService() : MovieService {
+    return MovieService();
+}
