@@ -1,11 +1,14 @@
 package com.example.movielib.domain.model
 
-interface Movie {
-    val id: Int;
-    val titel: String;
-    val year: String;
-    val description: String;
-    val picture: String;
-    val genre: String;
-    val favorite: Boolean;
+import java.util.*
+
+class Movie (
+    var title: String,
+    var year: String,
+    var description: String,
+    var picture: String,
+    var genre: String,
+    ) {
+    var id = ((Date().time)/1000).toInt();
+    var favorite: Boolean = false;
 }
